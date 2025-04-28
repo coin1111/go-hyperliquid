@@ -26,14 +26,16 @@ type SpotAssetInfo struct {
 }
 
 type SpotTokenInfo struct {
-	Name        string  `json:"name"`
-	SzDecimals  int     `json:"szDecimals"`
-	WeiDecimals int     `json:"weiDecimals"`
-	Index       int     `json:"index"`
-	TokenID     string  `json:"tokenId"`
-	IsCanonical bool    `json:"isCanonical"`
+	Name        string `json:"name"`
+	SzDecimals  int    `json:"szDecimals"`
+	WeiDecimals int    `json:"weiDecimals"`
+	Index       int    `json:"index"`
+	TokenID     string `json:"tokenId"`
+	IsCanonical bool   `json:"isCanonical"`
+	// some odd bug in go? fails with error
+	// cannot unmarshal object into Go struct field SpotTokenInfo.tokens.evmContract of type string
+	EvmContract string  `json:"evmContract"`
 	FullName    *string `json:"fullName"`
-	EvmContract *string `json:"evmContract"`
 }
 
 type SpotMeta struct {
