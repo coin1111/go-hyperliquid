@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sonirico/go-hyperliquid"
+	"github.com/coin1111/go-hyperliquid"
 )
 
 func TestWebsocket(t *testing.T) {

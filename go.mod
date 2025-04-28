@@ -7,7 +7,6 @@ toolchain go1.23.6
 require (
 	github.com/ethereum/go-ethereum v1.15.5
 	github.com/gorilla/websocket v1.5.3
-	github.com/sonirico/go-hyperliquid v0.1.2
 )
 
 require (

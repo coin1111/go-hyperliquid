@@ -3,7 +3,7 @@ package examples
 import (
 	"testing"
 
-	"github.com/sonirico/go-hyperliquid"
+	"github.com/coin1111/go-hyperliquid"
 )
 
 func TestOrder(t *testing.T) {

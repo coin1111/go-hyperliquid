@@ -5,7 +5,7 @@ Unofficial Go client for the Hyperliquid exchange API. This implementation follo
 ## Installation
 
 ```bash
-go get github.com/sonirico/go-hyperliquid
+go get github.com/coin1111/go-hyperliquid
 ```
 
 ## Features
@@ -32,7 +32,7 @@ import (
     "log"
     
     "github.com/ethereum/go-ethereum/crypto"
-    hyperliquid "github.com/sonirico/go-hyperliquid"
+    hyperliquid "github.com/coin1111/go-hyperliquid"
 )
 
 func main() {

@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/coin1111/go-hyperliquid"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/sonirico/go-hyperliquid"
 )
 
 var (
