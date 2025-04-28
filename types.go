@@ -26,14 +26,14 @@ type SpotAssetInfo struct {
 }
 
 type SpotTokenInfo struct {
-	Name        string `json:"name"`
-	SzDecimals  int    `json:"szDecimals"`
-	WeiDecimals int    `json:"weiDecimals"`
-	Index       int    `json:"index"`
-	TokenID     string `json:"tokenId"`
-	IsCanonical bool   `json:"isCanonical"`
-	EvmContract *string
+	Name        string  `json:"name"`
+	SzDecimals  int     `json:"szDecimals"`
+	WeiDecimals int     `json:"weiDecimals"`
+	Index       int     `json:"index"`
+	TokenID     string  `json:"tokenId"`
+	IsCanonical bool    `json:"isCanonical"`
 	FullName    *string `json:"fullName"`
+	EvmContract *string `json:"evmContract"`
 }
 
 type SpotMeta struct {
